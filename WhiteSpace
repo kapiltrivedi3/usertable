@@ -1,0 +1,42 @@
+// C program to illustrate the syntax of isspace function
+#include <ctype.h>
+#include <stdio.h>
+
+int விண்வெளி()
+{
+    // declaring a char variable to be tested
+    char த = ' ';
+    char க= 'ம';
+   
+     int ய  = 0 ;
+    // char ய ;
+    // Reads an integer
+    printf(" ");
+    scanf("%d" , &ய );  
+     
+     if (isspace(ய ))
+        printf("\n");
+    else
+        printf("%d", ய);
+
+
+    // checking ch1
+    if (isspace(த))
+        printf("\n");
+    else
+        printf("%c", த);
+
+    // checking ch2
+    if (isspace(க))
+        printf("\n");
+    else
+        printf("%c\n", க);
+
+    return 0;
+}
+
+int main (){
+
+    விண்வெளி();
+    return 0;
+}
